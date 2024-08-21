@@ -8,8 +8,8 @@ import pymysql
 
 
 username = 'admin'
-password = 'ssn20655'
-host = 'database-1.chsyg0qaghtk.ap-south-1.rds.amazonaws.com'
+password = 'password'
+host = 'link'
 port = '3306' 
 database = 'tamil'
 
