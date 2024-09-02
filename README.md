@@ -36,4 +36,4 @@
    - **Streamlit**: Gain experience in building interactive applications.
    - **Python**: Develop expertise in integrating these technologies to create a seamless workflow.
 
-This project covers the full stack of data extraction, storage, and presentation, offering a comprehensive learning experience.
+
