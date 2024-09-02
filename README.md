@@ -1,21 +1,22 @@
 1. Data Scraping with Selenium
+
 Objective: Automate the extraction of data from the Redbus website, including routes, schedules, prices, and seat availability.
 Approach:
 Set Up: Use Selenium WebDriver to navigate the Redbus site.
 Scraping: Identify and extract data elements such as route_names, route_links, bus_names, bus_types, departing_time, duration, reaching_time, star_rating, prices, and seats_available.
 Storage: Store the extracted data directly into a MySQL database.
-2. Data Storage in SQL
+3. Data Storage in SQL
 Objective: Efficiently store the scraped data for further analysis and retrieval.
 Approach:
 Database Design: Use a MySQL database with a table structure similar to your Redbus table.
 Data Insertion: Insert the scraped data into the database in real-time or batch mode using SQL queries.
-3. Streamlit Application for Dynamic Filtering
+4. Streamlit Application for Dynamic Filtering
 Objective: Create an interactive dashboard where users can view and filter bus data.
 Approach:
 Filters: Implement filters for bus_types, route_names, prices, star_ratings, and seats_available.
 SQL Integration: Use SQL queries to dynamically fetch and filter data based on user inputs.
 User Interface: Display the filtered data using Streamlit's interactive components, such as sliders, dropdowns, and buttons.
-4. Data Analysis/Filtering
+5. Data Analysis/Filtering
 Objective: Provide insights and customized options based on filtered data.
 Approach:
 SQL Queries: Write SQL queries that can be dynamically adjusted based on user input from the Streamlit app.
