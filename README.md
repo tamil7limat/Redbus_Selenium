@@ -22,7 +22,7 @@
    - **Objective**: Provide insights and customized options based on filtered data.
    - **Approach**:
      - **SQL Queries**: Write SQL queries that can be dynamically adjusted based on user input from the Streamlit app.
-     - **Visualization**: Use Streamlit to visualize data trends, patterns, and comparisons (e.g., price trends across different routes).
+     - **Visualization**: Use Streamlit to visualize data trends, patterns, and comparisons.
 
 ### **Business Use Cases**
    - **Travel Aggregators**: Provide real-time data to customers for better decision-making.
